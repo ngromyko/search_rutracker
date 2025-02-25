@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Rutracker Search",
+    "version": "1.0",
+    "description": "Поиск выделенного текста на Rutracker",
+    "permissions": ["contextMenus"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
